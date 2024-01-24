@@ -5,7 +5,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBit
 import { OpenAI } from "openai";
 
 const openai = new OpenAI({
-  apikey: "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",
+  apikey: "YOU PUT YOUR AIP KEY HERE",
 });
 
 client.on('ready', () => {
@@ -31,4 +31,4 @@ client.on("messageCreate", async (msg) =>{
 })
 
 
-client.login("MTE5OTM1OTM4MDI2NTYzOTk1Ng.GQrIwq.4xswI4I3_NUj_MwsVDh5JIyGX2SMUho5QFW4P8");
+client.login("PUT YOUR BOT TOKEN HERE");
